@@ -1,0 +1,74 @@
+#container{
+    background-color:cornflowerblue;
+    font-family: 'Turret Road', cursive;
+}
+#camera{
+    border-style: solid;
+    border-width: 3px;
+    height: 425px;
+    width: 300px;
+}
+/* #result{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    height:200px;
+    width: 450px;
+} */
+#oof{
+    background-color:forestgreen!important;
+    border-radius: 10px!important;
+    height: 50px!important;
+    width: 150px!important;
+}
+#nou{
+    background-color:forestgreen;
+    border-radius: 10px!important;
+    height: 30px!important;
+    width: 150px!important;
+}
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.smol{
+    width: 200px!important;
+}
+#stop it{
+    margin-left: 50px!important;
+}
+#no{
+    margin-left: 50px!important;
+}
